@@ -2,11 +2,68 @@
 @tailwind components;
 @tailwind utilities;
 
-/* PalpNet — Design System tokens (Fase 3) */
-:root {
-  --color-primary: #5ACB3D;
-  --color-primary-dark: #2E8F2D;
-  --color-background: #0F172A;
-  --color-white: #FFFFFF;
-  --font-primary: 'Manrope', sans-serif;
+@layer base {
+  :root {
+    /* PalpNet Dark Theme — padrão */
+    --background: 222 47% 11%;
+    --foreground: 0 0% 100%;
+
+    --card: 222 47% 14%;
+    --card-foreground: 0 0% 95%;
+
+    --popover: 222 47% 13%;
+    --popover-foreground: 0 0% 100%;
+
+    --primary: 108 58% 52%;
+    --primary-foreground: 222 47% 11%;
+
+    --secondary: 222 40% 18%;
+    --secondary-foreground: 0 0% 90%;
+
+    --muted: 222 40% 18%;
+    --muted-foreground: 215 20% 60%;
+
+    --accent: 119 51% 36%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 222 40% 20%;
+    --input: 222 40% 20%;
+    --ring: 108 58% 52%;
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: 'rlig' 1, 'calt' 1;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold tracking-tight;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent;
+  }
+
+  .glow-primary {
+    box-shadow: 0 0 40px -10px hsl(var(--primary) / 0.4);
+  }
+
+  .glass {
+    background: hsl(var(--card) / 0.6);
+    backdrop-filter: blur(12px);
+    border: 1px solid hsl(var(--border) / 0.5);
+  }
 }
