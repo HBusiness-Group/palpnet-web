@@ -1,0 +1,32 @@
+-- =============================================================================
+-- PalpNet — Row Level Security (RLS) Policies
+-- Implementado na Fase 2: Banco de dados e autenticação
+-- =============================================================================
+--
+-- Regras gerais de RLS:
+--
+-- profiles
+--   - SELECT: qualquer usuário autenticado pode ver perfis públicos
+--   - UPDATE: apenas o próprio usuário pode editar seu perfil
+--
+-- groups
+--   - SELECT: membros do grupo + grupos públicos para todos
+--   - INSERT: qualquer usuário autenticado
+--   - UPDATE: apenas o dono do grupo (role = 'owner')
+--   - DELETE: apenas o dono do grupo
+--
+-- predictions
+--   - SELECT: membros do mesmo grupo podem ver os palpites após o fechamento
+--   - INSERT: membro do grupo, antes do prazo de fechamento da partida
+--   - UPDATE: apenas o próprio usuário, antes do prazo de fechamento
+--   - DELETE: não permitido após criação
+--
+-- rankings
+--   - SELECT: membros do grupo ou público (se grupo público)
+--   - INSERT/UPDATE: apenas via funções privilegiadas (service role)
+--
+-- sponsors / banners
+--   - SELECT: público
+--   - INSERT/UPDATE/DELETE: apenas admin (role = 'admin')
+--
+-- =============================================================================

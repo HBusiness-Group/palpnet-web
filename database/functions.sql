@@ -1,0 +1,26 @@
+-- =============================================================================
+-- PalpNet — Funções (PostgreSQL / Supabase)
+-- Implementado na Fase 5+: Competições, jogos e palpites
+-- =============================================================================
+--
+-- Funções planejadas:
+--
+-- calculate_prediction_score(prediction_id)
+--   Calcula pontuação de um palpite baseado no resultado da partida.
+--   Regras de pontuação definidas em docs/PRODUCT.md.
+--
+-- recalculate_group_ranking(group_id)
+--   Recalcula e atualiza o ranking de todos os membros de um grupo.
+--   Chamada via trigger após update em matches ou predictions.
+--
+-- get_user_ranking_position(user_id, group_id)
+--   Retorna posição do usuário no ranking de um grupo específico.
+--
+-- check_and_award_achievements(user_id)
+--   Verifica e concede conquistas desbloqueadas ao usuário.
+--   Chamada após eventos: primeiro palpite, acerto, streak, etc.
+--
+-- handle_new_user()
+--   Trigger function: cria profile automático ao registrar via Supabase Auth.
+--
+-- =============================================================================

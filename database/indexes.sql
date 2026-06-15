@@ -1,0 +1,16 @@
+-- =============================================================================
+-- PalpNet — Índices de Performance
+-- Implementado na Fase 2+
+-- =============================================================================
+--
+-- Índices planejados:
+--
+-- idx_predictions_user_match     ON predictions(user_id, match_id)
+-- idx_predictions_group_match    ON predictions(group_id, match_id)
+-- idx_group_members_user         ON group_members(user_id)
+-- idx_group_members_group        ON group_members(group_id)
+-- idx_matches_competition_date   ON matches(competition_id, match_date)
+-- idx_rankings_group_score       ON rankings(group_id, total_score DESC)
+-- idx_notifications_user_unread  ON notifications(user_id) WHERE read_at IS NULL
+--
+-- =============================================================================

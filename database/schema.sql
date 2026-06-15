@@ -1,0 +1,24 @@
+-- =============================================================================
+-- PalpNet — Schema Principal
+-- Implementado na Fase 2: Banco de dados e autenticação
+-- =============================================================================
+--
+-- Tabelas planejadas:
+--
+-- profiles          — Perfis de usuário (extensão do Supabase Auth)
+-- competitions      — Competições (ex: Copa do Mundo FIFA 2026)
+-- teams             — Seleções/Times
+-- matches           — Partidas
+-- groups            — Grupos de palpites
+-- group_members     — Membros de grupos (com roles: owner, member)
+-- predictions       — Palpites dos usuários
+-- rankings          — Cache de rankings por grupo
+-- achievements      — Conquistas disponíveis
+-- user_achievements — Conquistas desbloqueadas por usuário
+-- sponsors          — Patrocinadores
+-- sponsor_campaigns — Campanhas publicitárias
+-- banners           — Banners de campanhas
+-- notifications     — Notificações do sistema
+-- activity_logs     — Auditoria de ações
+--
+-- =============================================================================

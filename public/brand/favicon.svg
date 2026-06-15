@@ -1,0 +1,8 @@
+<!-- PalpNet — Favicon placeholder -->
+<!-- Conceito: balão de conversa + bola de futebol -->
+<!-- Cores: verde #5ACB3D sobre fundo #0F172A -->
+<!-- Substituir pelo arquivo final na Fase 3 — Identidade Visual -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <rect width="32" height="32" rx="8" fill="#0F172A"/>
+  <text x="50%" y="55%" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#5ACB3D">⚽</text>
+</svg>

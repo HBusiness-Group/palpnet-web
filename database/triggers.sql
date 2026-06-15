@@ -1,0 +1,25 @@
+-- =============================================================================
+-- PalpNet — Triggers
+-- Implementado na Fase 2+
+-- =============================================================================
+--
+-- Triggers planejados:
+--
+-- on_auth_user_created
+--   AFTER INSERT ON auth.users
+--   Executa: handle_new_user()
+--   Cria automaticamente o profile do usuário no registro.
+--
+-- on_match_result_updated
+--   AFTER UPDATE ON matches (quando result_home IS NOT NULL)
+--   Executa: recalculate_group_ranking() para todos os grupos da competição.
+--
+-- on_prediction_inserted
+--   AFTER INSERT ON predictions
+--   Executa: check_and_award_achievements() — verifica conquista "primeiro palpite".
+--
+-- on_ranking_updated
+--   AFTER UPDATE ON rankings
+--   Executa: check_and_award_achievements() — verifica conquistas de posição.
+--
+-- =============================================================================

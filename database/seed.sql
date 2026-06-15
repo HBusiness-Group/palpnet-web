@@ -1,0 +1,27 @@
+-- =============================================================================
+-- PalpNet — Dados Iniciais (Seed)
+-- Executar apenas em ambiente de desenvolvimento
+-- =============================================================================
+--
+-- Seed planejado para Fase 5:
+--
+-- 1. Competição: Copa do Mundo FIFA 2026
+--    - 48 seleções participantes
+--    - Fase de grupos: 12 grupos de 4 times
+--    - Fase eliminatória: oitavas, quartas, semis, final
+--
+-- 2. Seleções iniciais (ex: Brasil, Argentina, França, Alemanha, etc.)
+--
+-- 3. Partidas de exemplo para desenvolvimento local
+--
+-- 4. Usuários de teste:
+--    - admin@palpnet.com.br (role: admin)
+--    - dono@palpnet.com.br  (role: user, dono de grupo)
+--    - user@palpnet.com.br  (role: user, participante)
+--
+-- 5. Grupo de exemplo: "Bolão dos Amigos"
+--
+-- 6. Conquistas disponíveis:
+--    - Primeiro Palpite, Palpite Certeiro, Placar Exato, etc.
+--
+-- =============================================================================

@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* PalpNet — Design System tokens (Fase 3) */
+:root {
+  --color-primary: #5ACB3D;
+  --color-primary-dark: #2E8F2D;
+  --color-background: #0F172A;
+  --color-white: #FFFFFF;
+  --font-primary: 'Manrope', sans-serif;
+}

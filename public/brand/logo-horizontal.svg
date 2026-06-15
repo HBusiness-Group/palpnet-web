@@ -1,0 +1,12 @@
+<!-- PalpNet — Logo horizontal placeholder -->
+<!-- Formato: ícone à esquerda + nome "PalpNet" à direita -->
+<!-- Cores: texto branco #FFFFFF, destaque verde #5ACB3D, fundo transparente -->
+<!-- Substituir pelo arquivo final na Fase 3 — Identidade Visual -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 48" width="200" height="48">
+  <!-- Ícone placeholder -->
+  <rect x="0" y="4" width="40" height="40" rx="10" fill="#5ACB3D"/>
+  <text x="20" y="28" font-size="22" text-anchor="middle" dominant-baseline="middle" fill="#0F172A">⚽</text>
+  <!-- Nome -->
+  <text x="52" y="30" font-family="Manrope, sans-serif" font-size="22" font-weight="800" fill="#FFFFFF">Palp</text>
+  <text x="102" y="30" font-family="Manrope, sans-serif" font-size="22" font-weight="800" fill="#5ACB3D">Net</text>
+</svg>

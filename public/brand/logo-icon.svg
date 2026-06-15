@@ -1,0 +1,8 @@
+<!-- PalpNet — Logo ícone (versão quadrada/compacta) placeholder -->
+<!-- Uso: favicon 512px, app icon, avatar de perfil da plataforma -->
+<!-- Conceito: balão de conversa + bola de futebol em fundo verde -->
+<!-- Substituir pelo arquivo final na Fase 3 — Identidade Visual -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <rect width="64" height="64" rx="16" fill="#5ACB3D"/>
+  <text x="50%" y="54%" font-size="36" text-anchor="middle" dominant-baseline="middle" fill="#0F172A">⚽</text>
+</svg>
