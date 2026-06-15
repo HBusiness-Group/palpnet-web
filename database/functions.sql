@@ -5,13 +5,13 @@
 --
 -- Funções planejadas:
 --
--- calculate_prediction_score(prediction_id)
+-- calculate_match_prediction_score(match_prediction_id)
 --   Calcula pontuação de um palpite baseado no resultado da partida.
 --   Regras de pontuação definidas em docs/PRODUCT.md.
 --
 -- recalculate_group_ranking(group_id)
 --   Recalcula e atualiza o ranking de todos os membros de um grupo.
---   Chamada via trigger após update em matches ou predictions.
+--   Chamada via trigger após update em matches ou match_predictions.
 --
 -- get_user_ranking_position(user_id, group_id)
 --   Retorna posição do usuário no ranking de um grupo específico.

@@ -11,7 +11,7 @@
 -- matches           — Partidas
 -- groups            — Grupos de palpites
 -- group_members     — Membros de grupos (com roles: owner, member)
--- predictions       — Palpites dos usuários
+-- match_predictions — Palpites dos usuários vinculados a partidas
 -- rankings          — Cache de rankings por grupo
 -- achievements      — Conquistas disponíveis
 -- user_achievements — Conquistas desbloqueadas por usuário

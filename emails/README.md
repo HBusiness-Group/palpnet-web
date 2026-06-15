@@ -14,7 +14,7 @@ Armazena os templates de e-mail enviados automaticamente pela plataforma em resp
 | `reset-password.tsx` | Solicitação de recuperação de senha |
 | `group-invite.tsx` | Convite para participar de um grupo |
 | `group-joined.tsx` | Confirmação de entrada em grupo |
-| `prediction-reminder.tsx` | Lembrete de palpite antes do fechamento |
+| `match-prediction-reminder.tsx` | Lembrete de palpite antes do fechamento da partida |
 | `match-result.tsx` | Resultado de partida e pontuação obtida |
 | `achievement-unlocked.tsx` | Conquista desbloqueada |
 | `campaign.tsx` | E-mail de campanha de patrocinador |

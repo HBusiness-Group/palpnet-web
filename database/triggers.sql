@@ -14,8 +14,8 @@
 --   AFTER UPDATE ON matches (quando result_home IS NOT NULL)
 --   Executa: recalculate_group_ranking() para todos os grupos da competição.
 --
--- on_prediction_inserted
---   AFTER INSERT ON predictions
+-- on_match_prediction_inserted
+--   AFTER INSERT ON match_predictions
 --   Executa: check_and_award_achievements() — verifica conquista "primeiro palpite".
 --
 -- on_ranking_updated

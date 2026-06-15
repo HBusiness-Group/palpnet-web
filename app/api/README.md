@@ -8,8 +8,8 @@ Esta pasta conterá os Route Handlers do Next.js 14 (App Router).
 api/
 ├── auth/
 │   └── callback/route.ts        ← Callback do Supabase Auth
-├── predictions/
-│   └── route.ts                 ← CRUD de palpites
+├── match-predictions/
+│   └── route.ts                 ← CRUD de palpites (match_predictions)
 ├── groups/
 │   └── route.ts                 ← CRUD de grupos
 ├── competitions/

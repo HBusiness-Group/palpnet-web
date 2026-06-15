@@ -5,8 +5,8 @@
 --
 -- Índices planejados:
 --
--- idx_predictions_user_match     ON predictions(user_id, match_id)
--- idx_predictions_group_match    ON predictions(group_id, match_id)
+-- idx_match_predictions_user_match  ON match_predictions(user_id, match_id)
+-- idx_match_predictions_group_match ON match_predictions(group_id, match_id)
 -- idx_group_members_user         ON group_members(user_id)
 -- idx_group_members_group        ON group_members(group_id)
 -- idx_matches_competition_date   ON matches(competition_id, match_date)

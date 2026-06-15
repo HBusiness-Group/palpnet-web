@@ -15,7 +15,7 @@
 --   - UPDATE: apenas o dono do grupo (role = 'owner')
 --   - DELETE: apenas o dono do grupo
 --
--- predictions
+-- match_predictions
 --   - SELECT: membros do mesmo grupo podem ver os palpites após o fechamento
 --   - INSERT: membro do grupo, antes do prazo de fechamento da partida
 --   - UPDATE: apenas o próprio usuário, antes do prazo de fechamento

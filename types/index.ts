@@ -8,7 +8,7 @@ export type GroupVisibility = 'public' | 'private'
 
 export type MatchStatus = 'scheduled' | 'live' | 'finished' | 'cancelled'
 
-export type PredictionStatus = 'open' | 'closed' | 'scored'
+export type MatchPredictionStatus = 'open' | 'closed' | 'scored'
 
 export interface User {
   id: string
@@ -66,7 +66,7 @@ export interface Group {
   created_at: string
 }
 
-export interface Prediction {
+export interface MatchPrediction {
   id: string
   user_id: string
   match_id: string
@@ -74,7 +74,7 @@ export interface Prediction {
   home_score: number
   away_score: number
   points?: number
-  status: PredictionStatus
+  status: MatchPredictionStatus
   created_at: string
 }
 

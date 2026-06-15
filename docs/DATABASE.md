@@ -33,7 +33,7 @@ Detalhamento completo implementado na Fase 2. Ver `database/schema.sql`.
 - `matches` — Partidas com resultados
 - `groups` — Grupos de palpites
 - `group_members` — Membros com roles
-- `predictions` — Palpites dos usuários
+- `match_predictions` — Palpites dos usuários vinculados a partidas
 - `rankings` — Cache de rankings
 - `achievements` — Catálogo de conquistas
 - `user_achievements` — Conquistas desbloqueadas

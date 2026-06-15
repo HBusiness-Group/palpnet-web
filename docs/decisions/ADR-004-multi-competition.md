@@ -22,7 +22,7 @@ Modelar o banco com **suporte nativo a múltiplas competições** desde a Fase 2
 ```
 competitions (id, name, slug, type, season, status)
     └── matches (competition_id, ...)
-         └── predictions (match_id, ...)
+         └── match_predictions (match_id, ...)
 
 groups (competition_id, ...)  ← grupo por competição
 ```
